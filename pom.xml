@@ -17,6 +17,7 @@
 	<properties>
 		<tycho-version>2.7.5</tycho-version>
 		<tycho.scmUrl>scm:git:https://git.eclipse.org/r/p/egit/egit.git</tycho.scmUrl>
+		<fx-world.updates.eclipse-dictionaries>http://updates.fx-world.de/eclipse-dictionaries</fx-world.updates.eclipse-dictionaries>
 	</properties>
 	
 	<repositories>
@@ -67,15 +68,15 @@
 						<version>${tycho-version}</version>
 					</dependency>
 				</dependencies>
-			</plugin>
+			</plugin>			
 		</plugins>
 	</build>
   
-  <modules>  	
-  	<module>plugins/org.eclipse.jdt.ui.de_DE</module>
-  	<module>features/de.fxworld.eclipse.dictionaries.german.jdt</module>
-  	<module>releng/de.fx-world.eclipse.dictionaries.site</module>
-  	<module>features/de.fxworld.eclipse.dictionaries.german.cdt</module>
-  	<module>plugins/org.eclipse.cdt.ui.de_DE</module>
-  </modules>
+	<modules>  	
+  		<module>plugins/org.eclipse.jdt.ui.de_DE</module>
+  		<module>features/de.fxworld.eclipse.dictionaries.german.jdt</module>
+  		<module>releng/de.fx-world.eclipse.dictionaries.site</module>
+  		<module>features/de.fxworld.eclipse.dictionaries.german.cdt</module>
+  		<module>plugins/org.eclipse.cdt.ui.de_DE</module>
+  	</modules>
 </project>

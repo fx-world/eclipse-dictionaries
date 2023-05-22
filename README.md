@@ -9,11 +9,10 @@ Based on the dictionary from [Free German Dictionary](https://sourceforge.net/pr
 Use the Eclipse update site [http://updates.fx-world.de/](http://updates.fx-world.de/).
 
 ## TODO
-* fix license
 
 ## License - EPL
 
-Copyright (c) 2018 Pascal Weyprecht
+Copyright (c) 2023 Pascal Weyprecht
 
 This program and the accompanying materials are made
 available under the terms of the Eclipse Public License 2.0
