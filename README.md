@@ -8,6 +8,9 @@ Based on the dictionary from [Free German Dictionary](https://sourceforge.net/pr
 
 Use the Eclipse update site [http://updates.fx-world.de/](http://updates.fx-world.de/).
 
+## TODO
+* fix license
+
 ## License - EPL
 
 Copyright (c) 2018 Pascal Weyprecht
