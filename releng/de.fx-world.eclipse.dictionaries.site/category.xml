@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.fxworld.eclipse.dictionaries.german.jdt_1.0.0.qualifier.jar" id="de.fxworld.eclipse.dictionaries.german.jdt" version="1.0.0.qualifier">
+   <feature url="features/de.fxworld.eclipse.dictionaries.german.jdt_1.0.1.qualifier.jar" id="de.fxworld.eclipse.dictionaries.german.jdt" version="1.0.1.qualifier">
       <category name="de.fxworld.eclipse.dictionaries"/>
    </feature>
-   <feature url="features/de.fxworld.eclipse.dictionaries.german.cdt_1.0.0.qualifier.jar" id="de.fxworld.eclipse.dictionaries.german.cdt" version="1.0.0.qualifier">
+   <feature url="features/de.fxworld.eclipse.dictionaries.german.cdt_1.0.1.qualifier.jar" id="de.fxworld.eclipse.dictionaries.german.cdt" version="1.0.1.qualifier">
       <category name="de.fxworld.eclipse.dictionaries"/>
    </feature>
    <category-def name="de.fxworld.eclipse.dictionaries" label="Dictionaries"/>
