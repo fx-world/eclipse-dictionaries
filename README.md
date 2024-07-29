@@ -6,7 +6,10 @@ Based on the dictionary from [Free German Dictionary](https://sourceforge.net/pr
 
 ## Installation
 
-[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_marketplace/images/btn-install.svg)](/marketplace-client-intro?mpc_install=5606459"Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client")
+<a href="/marketplace-client-intro?mpc_install=5606459" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client">
+<img style="width:80px;" typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_marketplace/images/btn-install.svg" alt="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client" />
+</a>
+
 
 Use the [Eclipse marketplace](https://marketplace.eclipse.org/content/german-dictionary)
 
