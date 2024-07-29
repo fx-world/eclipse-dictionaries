@@ -6,6 +6,12 @@ Based on the dictionary from [Free German Dictionary](https://sourceforge.net/pr
 
 ## Installation
 
+[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_marketplace/images/btn-install.svg)](/marketplace-client-intro?mpc_install=5606459"Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client")
+
+Use the [Eclipse marketplace](https://marketplace.eclipse.org/content/german-dictionary)
+
+or
+
 Use the Eclipse update site [https://updates.fx-world.de/](https://updates.fx-world.de/).
 
 ## TODO
