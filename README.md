@@ -6,14 +6,15 @@ Based on the dictionary from [Free German Dictionary](https://sourceforge.net/pr
 
 ## Installation
 
-<a href="/marketplace-client-intro?mpc_install=5606459" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client">
+<a href="https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=5606459" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client">
 <img style="width:80px;" typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_marketplace/images/btn-install.svg" alt="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client" />
 </a>
 
+_or_
 
-Use the [Eclipse marketplace](https://marketplace.eclipse.org/content/german-dictionary)
+Go to the [Eclipse marketplace](https://marketplace.eclipse.org/content/german-dictionary)
 
-or
+_or_
 
 Use the Eclipse update site [https://updates.fx-world.de/](https://updates.fx-world.de/).
 
