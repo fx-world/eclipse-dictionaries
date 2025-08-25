@@ -15,7 +15,7 @@
 	</developers>
 
 	<properties>
-		<tycho-version>3.0.6</tycho-version>
+		<tycho-version>4.0.3</tycho-version>
 		<tycho.scmUrl>scm:git:https://git.eclipse.org/r/p/egit/egit.git</tycho.scmUrl>
 		<fx-world.updates.eclipse-dictionaries>http://updates.fx-world.de/eclipse-dictionaries</fx-world.updates.eclipse-dictionaries>
 	</properties>
@@ -81,4 +81,5 @@
   	</modules>
 
 </project>
+
 
