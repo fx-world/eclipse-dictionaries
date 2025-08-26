@@ -2,7 +2,7 @@
 <feature
       id="de.fxworld.eclipse.dictionaries.german.cdt"
       label="German Language Pack for CDT"
-      version="1.0.1.qualifier">
+      version="1.0.2.qualifier">
 
    <description url="https://github.com/fx-world/eclipse-dictionaries">
       These Eclipse-Features add dictionaries for the German language (Deutsch). If you are using Eclipse for Java development you have to use the version for JDT, but if you are developing in C++, you have to use the CDT version. In case you install the wrong version the full other development environment will be installed.

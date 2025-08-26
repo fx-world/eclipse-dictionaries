@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.fx-world</groupId>
   <artifactId>eclipse-dictionaries</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <developers>
@@ -49,7 +49,7 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<sourceReferences>
-						<generate>true</generate>
+						<generate>false</generate>
 					</sourceReferences>
 					<format>'v'yyyyMMdd-HHmm</format>
 					<timestampProvider>jgit</timestampProvider>
@@ -58,12 +58,7 @@
 				</configuration>
 				<dependencies>
 					<dependency>
-						<groupId>org.eclipse.tycho.extras</groupId>
-						<artifactId>tycho-sourceref-jgit</artifactId>
-						<version>${tycho-version}</version>
-					</dependency>
-					<dependency>
-						<groupId>org.eclipse.tycho.extras</groupId>
+						<groupId>org.eclipse.tycho</groupId>
 						<artifactId>tycho-buildtimestamp-jgit</artifactId>
 						<version>${tycho-version}</version>
 					</dependency>
