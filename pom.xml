@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.fx-world</groupId>
   <artifactId>eclipse-dictionaries</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <developers>
@@ -15,7 +15,7 @@
 	</developers>
 
 	<properties>
-		<tycho-version>2.7.5</tycho-version>
+		<tycho-version>4.0.3</tycho-version>
 		<tycho.scmUrl>scm:git:https://git.eclipse.org/r/p/egit/egit.git</tycho.scmUrl>
 		<fx-world.updates.eclipse-dictionaries>http://updates.fx-world.de/eclipse-dictionaries</fx-world.updates.eclipse-dictionaries>
 	</properties>
@@ -24,7 +24,7 @@
 		<repository>
 			<id>latest-eclipse</id>
 			<layout>p2</layout>
-			<url>https://download.eclipse.org/releases/2022-12/</url>
+			<url>https://download.eclipse.org/releases/2025-09/</url>
 		</repository>
 	</repositories>
 
@@ -49,7 +49,7 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<sourceReferences>
-						<generate>true</generate>
+						<generate>false</generate>
 					</sourceReferences>
 					<format>'v'yyyyMMdd-HHmm</format>
 					<timestampProvider>jgit</timestampProvider>
@@ -58,12 +58,7 @@
 				</configuration>
 				<dependencies>
 					<dependency>
-						<groupId>org.eclipse.tycho.extras</groupId>
-						<artifactId>tycho-sourceref-jgit</artifactId>
-						<version>${tycho-version}</version>
-					</dependency>
-					<dependency>
-						<groupId>org.eclipse.tycho.extras</groupId>
+						<groupId>org.eclipse.tycho</groupId>
 						<artifactId>tycho-buildtimestamp-jgit</artifactId>
 						<version>${tycho-version}</version>
 					</dependency>
@@ -79,4 +74,7 @@
   		<module>features/de.fxworld.eclipse.dictionaries.german.cdt</module>
   		<module>plugins/org.eclipse.cdt.ui.de_DE</module>
   	</modules>
+
 </project>
+
+

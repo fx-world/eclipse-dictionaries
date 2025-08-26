@@ -4,7 +4,7 @@
 	<parent>
   		<groupId>de.fx-world</groupId>
   		<artifactId>eclipse-dictionaries</artifactId>
-  		<version>1.0.1-SNAPSHOT</version>
+  		<version>1.0.2-SNAPSHOT</version>
   		<relativePath>../..</relativePath>
 	</parent>
   
@@ -35,7 +35,7 @@
 	                    </configuration>
 	                </execution>
 	                <execution>
-	                    <!-- step 3: generate the full p2 metadata for the mirrored artifacts -->
+	                    <!-- step 2: generate the full p2 metadata for the mirrored artifacts -->
 	                    <id>generate-full-metadata</id>
 	                    <phase>compile</phase>
 	                    <goals>
@@ -43,31 +43,12 @@
 	                    </goals>
 	                    <configuration>
 	                        <sourceLocation>${project.build.directory}/repository</sourceLocation>
+	                        <append>true</append>
 	                    </configuration>
 	                </execution>
 	            </executions>
 	        </plugin>
-	        <plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-antrun-plugin</artifactId>
-	            <version>1.7</version>
-	            <executions>
-	                <execution>
-	                    <!-- step 2: strip the p2 metadata that contains the "partial IUs" that which be used for dependency resolution in Tycho -->
-	                    <id>remove-incomplete-metadata</id>
-	                    <phase>process-resources</phase>
-	                    <goals>
-	                        <goal>run</goal>
-	                    </goals>
-	                    <configuration>
-	                        <target>
-	                            <delete file="${project.build.directory}/repository/content.jar" />
-	                            <delete file="${project.build.directory}/repository/artifacts.jar" />
-	                        </target>
-	                    </configuration>
-	                </execution>
-	            </executions>
-	        </plugin>
+
 		</plugins>
 	</build>
 </project>
